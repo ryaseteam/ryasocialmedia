@@ -1,0 +1,240 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #ddd;
+}
+
+hr {
+  margin: 10px 0;
+}
+
+.clr-fx::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.main-nav {
+  background-color: #333;
+  height: 50px;
+}
+
+.nav-head {
+  float: left;
+  width: 50%;
+}
+
+.search-input {
+  width: 60%;
+  border-radius: 5px;
+  margin: 12px 10px;
+  padding: 5px;
+  border: none;
+}
+
+/* .nav-head>a {
+  position: relative;
+  padding: 10px;
+}
+
+.nav-head>a>img {
+  height: 40px;
+  padding-top: 5px;
+  border-radius: 15px 15px 10px 10px;
+}
+
+.nav-head>a>span {
+  position: absolute;
+  bottom: 20px;
+  font-size: 18px;
+  font-family: monospace;
+  padding: 0 5px;
+  color: #eee;
+} */
+
+.nav-menu {
+  float: right;
+  padding: 15px;
+}
+
+.nav-menu a {
+  color: #eee;
+  padding: 20px 10px;
+}
+
+.main-row {
+  display: grid;
+  grid-template-columns: 15% 65% 20%;
+}
+
+.main-row>div {
+  margin: 3px;
+  padding: 20px 10px;
+}
+
+.main-body {
+  /* background-color: #f5f5f5; */
+  border-radius: 3px;
+  /* box-shadow: #bbb 0px 1px 1px 1px; */
+  min-height: 600px;
+}
+
+.profile-div {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+.profile-div>img {
+  width: 80%;
+  border-radius: 50%;
+}
+
+.side-menu {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.side-menu-item {
+  display: block;
+  position: relative;
+  padding: 5px;
+  margin: 5px 0;
+  color: #444;
+  border-radius: 5px;
+}
+
+.side-menu-item:hover {
+  background-color: #efefef;
+  color: #000;
+}
+
+.side-menu-item>span {
+  display: inline-block;
+  position: absolute;
+  font-size: 14px;
+  right: 10px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  /* background-color: #f8f8f8; */
+  color: #ff0000;
+}
+
+.widget {
+  background-color: #fafafa;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+
+
+.widget-title {
+  font-size: 24px;
+  padding: 5px 0;
+}
+
+.cw-month {
+  width: 100%;
+  text-align: right;
+}
+
+.cw-month td {
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cw-month td:hover {
+  background-color: #eee;
+}
+
+.cw-tody {
+  /* background-color: #d9edf7; */
+  border: #d9edf7 5px solid;
+}
+
+.cw-event {
+  background-color: #ffd0d0;
+}
+
+.mw-list {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.mw-list>li {
+  padding: 1px;
+  margin: 5px 1px;
+}
+
+.post {
+  background-color: #fafafa;
+  border: 0.6px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 5px;
+  width: 70%;
+}
+
+.post-head {
+  margin-bottom: 20px;
+}
+
+/* .post-head>div {
+  float: left;
+} */
+
+.post-owner {
+  width: 80%;
+  float: left;
+}
+
+.post-options {
+  float: right;
+}
+
+.post-owner img {
+  border-radius: 50%;
+  margin-right: 20px;
+  float: left;
+}
+
+.post-owner h5 {
+  font-size: 16px;
+}
+
+.post-owner p {
+  color: #aaa;
+  font-size: 14px;;
+}
+
+.post-body {
+  margin-bottom: 10px;
+}
+
+.post-body h3 {
+  margin-bottom: 10px;;
+}
+
+.post-body p {
+  text-align: justify;
+}
